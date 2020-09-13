@@ -5,6 +5,7 @@ cap = cv2.VideoCapture(0)
 # for saving video
 fourcc = cv2.VideoWriter_fourcc('X','V','I','D')
 # or fourcc = cv2.VideoWriter_fourcc(*'XVID')
+# VideoWriter(output file,fourcc,no_of_fame_pereconds)
 out = cv2.VideoWriter('output.avi',fourcc,20.0,(640,480))
 
 while(cap.isOpened()):
@@ -40,3 +41,21 @@ link of getting videos property
 https://docs.opencv.org/4.0.0/d4/d15/group__videoio__flags__base.html#gaeb8dd9c89c10a5c63c139bf7c4f5704d
 
 '''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# video capture properties
+# https://docs.opencv.org/4.0.0/d4/d15/group__videoio__flags__base.html#gaeb8dd9c89c10a5c63c139bf7c4f5704d
