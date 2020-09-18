@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d97d7d7-d90e-40e5-9968-91f35de82d32" name="Default Changelist" comment="Tracking the color form an camera(video) using HSV">
-      <change beforePath="$PROJECT_DIR$/hsv_object_detection_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/hsv_colour_detection_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_python_object_detection_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_python_colour_detection_video.py" afterDir="false" />
-    </list>
+    <list default="true" id="8d97d7d7-d90e-40e5-9968-91f35de82d32" name="Default Changelist" comment="Tracking the color form an image using HSV" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600452735356</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tracking the color form an image using HSV">
+      <created>1600452798149</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600452798149</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Tracking the color form an image using HSV">
+      <created>1600453058681</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600453058681</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +242,8 @@
     <MESSAGE value="Another example of trackbar" />
     <MESSAGE value="Tracking the object on the basic of color form an image using HSV" />
     <MESSAGE value="Tracking the color form an camera(video) using HSV" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tracking the color form an camera(video) using HSV" />
+    <MESSAGE value="Tracking the color form an image using HSV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tracking the color form an image using HSV" />
   </component>
   <component name="WindowStateProjectService">
     <state x="766" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596269448617">
