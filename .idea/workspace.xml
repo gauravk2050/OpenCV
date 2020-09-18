@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d97d7d7-d90e-40e5-9968-91f35de82d32" name="Default Changelist" comment="Another example of trackbar">
-      <change afterPath="$PROJECT_DIR$/hsv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8d97d7d7-d90e-40e5-9968-91f35de82d32" name="Default Changelist" comment="Tracking the color form an camera(video) using HSV">
+      <change beforePath="$PROJECT_DIR$/hsv_object_detection_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/hsv_colour_detection_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_python_object_detection_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_python_colour_detection_video.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="C:\Users\GAURAV\Desktop\Machine_Lerning\OpenCV" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.opencv_python_object_detection_video">
+  <component name="RunManager" selected="Python.opencv_python_colour_detection_video">
     <configuration name="Trackbar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hsv_object_detection_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hsv_colour_detection_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\GAURAV\Desktop\Machine_Lerning\OpenCV\hsv_object_detection_image.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\GAURAV\Desktop\Machine_Lerning\OpenCV\hsv_colour_detection_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="opencv_python_object_detection_video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="opencv_python_colour_detection_video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,7 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv_python_object_detection_video.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\GAURAV\Desktop\Machine_Lerning\OpenCV\opencv_python_colour_detection_video.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.opencv_python_object_detection_video" />
-        <item itemvalue="Python.hsv_object_detection_image" />
+        <item itemvalue="Python.opencv_python_colour_detection_video" />
+        <item itemvalue="Python.hsv_colour_detection_image" />
         <item itemvalue="Python.trackbar_2" />
         <item itemvalue="Python.Trackbar" />
         <item itemvalue="Python.bitwist_operator_opencv" />
@@ -196,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600270102777</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tracking the object on the basic of color form an image using HSV">
+      <created>1600452539127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600452539127</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tracking the color form an camera(video) using HSV">
+      <created>1600452735356</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600452735356</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +229,9 @@
     <MESSAGE value="How to perform the Logical operation on an image i.e.&#10;Logical AND&#10;Logical OR&#10;Logical Not&#10;Logical Xor" />
     <MESSAGE value="Creating the colour tracker by which we can change the colour of the window." />
     <MESSAGE value="Another example of trackbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another example of trackbar" />
+    <MESSAGE value="Tracking the object on the basic of color form an image using HSV" />
+    <MESSAGE value="Tracking the color form an camera(video) using HSV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tracking the color form an camera(video) using HSV" />
   </component>
   <component name="WindowStateProjectService">
     <state x="766" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596269448617">
@@ -258,30 +274,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="411" y="39" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1596270230865" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1600452276334">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1600452640000">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600452276334" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1600452276333">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600452640000" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1600452640000">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600452276333" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1600452276333">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600452640000" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1600452640000">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600452276333" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1600452276333">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600452640000" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1600452640000">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600452276333" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600452640000" />
     <state x="237" y="0" key="SettingsEditor" timestamp="1596112767936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="237" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596112767936" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1600269863972">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1600452825983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600269863972" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600452825983" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600243957210">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -290,6 +306,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="400" y="129" key="git4idea.merge.GitMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1600244053996" />
+    <state x="359" y="129" key="git4idea.merge.GitPullDialog" timestamp="1600452805575">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="359" y="129" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1600452805575" />
     <state x="303" y="1" key="search.everywhere.popup" timestamp="1600267483447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
