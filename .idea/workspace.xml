@@ -10,7 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d97d7d7-d90e-40e5-9968-91f35de82d32" name="Default Changelist" comment="Creating the colour tracker by which we can change the colour of the window.">
+    <list default="true" id="8d97d7d7-d90e-40e5-9968-91f35de82d32" name="Default Changelist" comment="Another example of trackbar">
+      <change afterPath="$PROJECT_DIR$/hsv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fBu86dp8cPLI26XQANynaQHuMZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +48,7 @@
       <recent name="C:\Users\GAURAV\Desktop\Machine_Lerning\OpenCV" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Trackbar">
+  <component name="RunManager" selected="Python.hsv">
     <configuration name="Trackbar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="draw_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hsv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw_function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hsv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mouse_event_opencv_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="trackbar_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,7 +145,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mouse_event_opencv_python.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trackbar_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hsv" />
+        <item itemvalue="Python.trackbar_2" />
         <item itemvalue="Python.Trackbar" />
         <item itemvalue="Python.bitwist_operator_opencv" />
         <item itemvalue="Python.basic_operations_ob_image" />
-        <item itemvalue="Python.mouse_event_opencv_python" />
-        <item itemvalue="Python.draw_function" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600269835048</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Another example of trackbar">
+      <created>1600270102777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600270102777</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +214,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="How to perform the Logical operation on an image i.e.&#10;Logical AND&#10;Logical OR&#10;Logical Not&#10;Logical Xor" />
     <MESSAGE value="Creating the colour tracker by which we can change the colour of the window." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating the colour tracker by which we can change the colour of the window." />
+    <MESSAGE value="Another example of trackbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another example of trackbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="766" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596269448617">
@@ -247,30 +258,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="411" y="39" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1596270230865" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1600269722045">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1600270104397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600269722045" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1600269722044">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600270104397" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1600270104396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600269722044" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1600269722043">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600270104396" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1600270104396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600269722043" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1600269722044">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600270104396" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1600270104396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600269722044" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600270104396" />
     <state x="237" y="0" key="SettingsEditor" timestamp="1596112767936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="237" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596112767936" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1600244040005">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1600269863972">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600244040005" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600269863972" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600243957210">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
