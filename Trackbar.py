@@ -36,7 +36,7 @@ switch='0 : OFF\n 1 : ON'
 cv.createTrackbar(switch,'image',0,1, nothing)
 
 while(1):
-    cv.imshow('image2',img)
+    cv.imshow('image',img)
     k = cv.waitKey(1) & 0xFF
     if k == 27:
         break
