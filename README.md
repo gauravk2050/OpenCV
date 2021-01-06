@@ -1,4 +1,4 @@
 # Open_CV
 Leaning OpenCV
-creating face recogimation system
+This project is based on object detection.
 
