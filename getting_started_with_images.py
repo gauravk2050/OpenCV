@@ -1,3 +1,4 @@
+# This code is for how to capture image form openCV
 import cv2
 '''
 sc2.imread() Second argument flag is for
