@@ -1,3 +1,4 @@
+#Basis of how to read video from openCV
 import cv2
 
 # for capturing video
