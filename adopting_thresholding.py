@@ -10,6 +10,9 @@ import numpy as np
 
 img = cv.imread('sudoku.jpg',0)
 _, th1 = cv.threshold(img, 127, 255, cv.THRESH_BINARY)
+'''
+  thresholding(source_image,maximum threshold value,adaptive method,threshold type,block size, the value of mean/gausian c-constant)
+'''
 th2 = cv.adaptiveThreshold(img, 255, cv.ADAPTIVE_THRESH_MEAN_C, cv.THRESH_BINARY, 11, 2);
 th3 = cv.adaptiveThreshold(img, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, 11, 2);
 
@@ -20,3 +23,5 @@ cv.imshow("ADAPTIVE_THRESH_GAUSSIAN_C", th3)
 
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# https://www.tutorialspoint.com/opencv/opencv_adaptive_threshold.htm#:~:text=Adaptive%20thresholding%20is%20the%20method,()%20of%20the%20Imgproc%20class.

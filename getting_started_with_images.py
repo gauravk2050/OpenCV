@@ -5,7 +5,7 @@ sc2.imread() Second argument flag is for
 0 - Loads image in grayscale mode
 -1 - Loads image as such includeing alpha channel
 '''
-img = cv2.imread('lena.jpg', 1)
+img = cv2.imread('lena.jpg', 0)
 
 cv2.imshow('image', img)               # showing image
 k = cv2.waitKey(5000)                  # image will be there for 5 sec

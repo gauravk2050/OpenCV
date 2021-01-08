@@ -30,14 +30,6 @@ _, th3 = cv.threshold(img, 200, 255, cv.THRESH_TRUNC)
 _, th4 = cv.threshold(img, 127, 255, cv.THRESH_TOZERO)
 _, th5 = cv.threshold(img, 127, 255, cv.THRESH_TOZERO_INV)
 
-titles = ['original Image', 'Binary', 'Binary Inverse', 'Trunc', 'Tozero', 'Tozero Inverse']
-images= [img, th1,th2,th3,th4,th5]
-
-for i in range(6):
-    plt.subplot(2,3, i+1),plt.imshow(images[i], 'gray')
-    plt.title('title[i]')
-    plt.xticks([]), plt.yticks([])
-
 # cv.imshow("Image", img)
 # cv.imshow("th1",th1)
 # cv.imshow("th2",th2)
