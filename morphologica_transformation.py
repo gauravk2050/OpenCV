@@ -7,19 +7,39 @@ Things required for transformation are
 '''
 
 import cv2
-import numpy as np 
-from matplotlib import pyplot as plt 
+import numpy as np
+from matplotlib import pyplot as plt
 
-img = cv2.imread('smarties.png',cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('smarties.png', cv2.IMREAD_GRAYSCALE)
+_, mask = cv2.threshold(img, 220, 255, cv2.THRESH_BINARY_INV)
 
-title = ['image']
-image = [img]
+# Kernal: is the square or some shape which we want to apply on image
+kernal = np.ones((5,5), np.uint8)
 
-for i in range(1):
-    plt.subplot(1, 1, i+1)
-    plt.show(image[i], 'gray')
+# Dilation adds pixels to the boundaries of objects in an image
+dilation = cv2.dilate(mask, kernal, iterations=2)
+
+#erosion removes pixels on object boundaries
+erosion = cv2.erode(mask, kernal, iterations=1)
+
+# opening is the operation in which simply erosion is performed followed by the dilation
+opening = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernal)
+
+# closing is the operation in which simply dilation is performed followed by the erosion
+closing = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernal)
+
+# It is the difference between the dilation and erosion of the image
+mg = cv2.morphologyEx(mask, cv2.MORPH_GRADIENT, kernal)
+
+# It is the difference between image and opening of an image
+th = cv2.morphologyEx(mask, cv2.MORPH_TOPHAT, kernal)
+
+titles = ['image', 'mask', 'dilation', 'erosion', 'opening', 'closing', 'mg', 'th']
+images = [img, mask, dilation, erosion, opening, closing, mg, th]
+
+for i in range(8):
+    plt.subplot(2, 4, i+1), plt.imshow(images[i], 'gray')
     plt.title(titles[i])
-    plt.xticks([])
-    plt.yticks([])
+    plt.xticks([]),plt.yticks([])
 
 plt.show()
