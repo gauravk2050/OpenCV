@@ -1,2 +1,18 @@
-An openCV is a cross-patform liberary (stands for OPEN SOURCE COMPUTER VISION) using which we can develop real time computer vision application.
-It mainly focus on image processing , video capture and analysis including features like face detection and Object detection.
+
+what is openCV?
+    An openCV is a cross-patform liberary (stands for OPEN SOURCE COMPUTER VISION) using which we can develop real time computer vision application.
+    It mainly focus on image processing , video capture and analysis including features like face detection and Object detection.
+    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is Computer Vision?
+
+    Computer vision is an interdisciplinary scientific field that deals with how computers can gain high-level understanding from digital images or videos.
+    From the perspective of engineering, it seeks to understand and automate tasks that the human visual system can do.
+    
+    Computer Vision overlaps significiently with the following fields:
+        -IMAGE PROCESSING
+        -PATTERN RECOGINATION
+        -PHOTOGRAMMETRY
+        
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
