@@ -27,3 +27,35 @@ Features of OpenCV Library:
         
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Application of openCV:
+    we use openCV in various fields such as-
+    
+    1.Robotics Application
+        Localization − Determine robot location automatically
+        Navigation
+        Obstacles avoidance
+        Assembly (peg-in-hole, welding, painting)
+        Manipulation (e.g. PUMA robot manipulator)
+        Human Robot Interaction (HRI) − Intelligent robotics to interact with and serve people
+      
+    2.Medical Application
+        Classification and detection (e.g. lesion or cells classification and tumor detection)
+        2D/3D segmentation
+        3D human organ reconstruction (MRI or ultrasound)
+        Vision-guided robotics surgery   
+        
+    3.Industrial Automation Application
+        Assembly
+        object sorting
+        Documentation understanding
+        Barcode and packege label reading
+        Industrial inspection(Defect detection)
+        
+    4.Security Application
+        Biometrics(iris, fingureprint, face recogination)
+        Surveillance - Detecting certain suspicious activities or behaviour
+    
+    5.Transport Application
+        Automonous vehicle
+        Safety, e.g. driving vigilance monitoring
+        
