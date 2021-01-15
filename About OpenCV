@@ -16,3 +16,14 @@ What is Computer Vision?
         
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
  
+Features of OpenCV Library:
+    Using OpenCV library, you can −
+        Read and write images
+        Capture and save videos
+        Process images (filter, transform)
+        Perform feature detection
+        Detect specific objects such as faces, eyes, cars, in the videos or images.
+        Analyze the video, i.e., estimate the motion in it, subtract the background, and track objects in it.
+        
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
