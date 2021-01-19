@@ -1,3 +1,4 @@
+# this program is for learning how to bluring and smoothing image.
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
